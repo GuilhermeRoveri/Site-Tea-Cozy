@@ -1,0 +1,26 @@
+@import "nav.css";
+@import "parteprincipal.css";
+@import "teaofthemonth.css";
+@import "elementos__tea.css";
+@import "footer.css";
+@import "location.css";
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+body{
+    background-color: black;
+    height: 100vh;
+}
+header{
+    position: fixed;
+}
+main{
+    display: flex ;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}

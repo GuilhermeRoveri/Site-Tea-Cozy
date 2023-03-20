@@ -1,0 +1,29 @@
+.parteprincipal{
+    background-image: url(img-mission-background.jpg);
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.parteprincipal__barra{
+    height: 100px;
+    width: 1200px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2{
+    color: white;
+    size: 36px;
+}
+
+h4{
+    color: white;
+    size: 36px;
+}

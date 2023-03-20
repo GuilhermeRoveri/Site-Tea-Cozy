@@ -1,0 +1,35 @@
+.teaofthemonth{
+    background-color: rgb(0, 0, 0);
+    width: 1000px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.Titulo__tea{
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+}
+
+.Tea__product{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 50px;
+    margin-top: 15px;
+}
+
+.Elementos__tea{
+    width: 300px;
+    height:200px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.Elementos__tea h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
